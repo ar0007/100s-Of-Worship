@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+    font-family: HindSiligori;
+    src: url(./HindSiliguri-Medium.ttf);
+}
+
+span {
+    font-family: HindSiligori !important;
+}
+
+.ortho {
+    font-family: HindSiligori !important;
+    color: rgb(0, 255, 255);
+    font-size: 16px;
+    width: 80vw;
+    margin: auto;
+}
+
+.whole-display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #141E30;
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    background: linear-gradient(to top, #243B55, #141E30);
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+}
+
+.card {
+    min-width: 80vw;
+    border: 1px solid rgba(83, 84, 163, 0.596);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 10px;
+}
+
+.t1,
+.t2,
+.t3 {
+    font-size: 22px;
+    color: rgb(0, 255, 255);
+    margin: 30px 20px;
+    font-weight: 900;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 33;
+}
+
+.t2 {
+    animation-delay: 33s!important;
+}
+
+.t3 {
+    animation-delay: 66s !important;
+    animation-iteration-count: 34!important;
+}
+
+@keyframes example {
+    /* 10% {
+        opacity: .6;
+    }
+    30% {
+        opacity: .3;
+    } */
+    50% {
+        opacity: 0;
+    }
+    /* 70% {
+        opacity: .3;
+    }
+    90% {
+        opacity: .6;
+    } */
+    100% {
+        opacity: 1;
+    }
+}
+
+.number-count {
+    font-size: 40px;
+    padding: 12px 28px;
+    background-color: #243B55;
+    border-radius: 4px;
+    color: rgb(0, 255, 255);
+    font-family: HindSiligori !important;
+}
