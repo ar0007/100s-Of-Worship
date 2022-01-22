@@ -107,6 +107,16 @@ span {
     margin-right: 5vw;
     transform: scale(0);
     transition: .5s;
+    animation: bounce .3s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 .poppup-card {
