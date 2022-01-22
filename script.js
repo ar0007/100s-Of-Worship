@@ -1,7 +1,9 @@
 const count = document.getElementById(`counter1`);
 const count2 = document.getElementById(`counter2`);
 const count3 = document.getElementById(`counter3`);
-const popupButton = document.getElementsByClassName(`popup-colse-button`);
+const controlSpeed = document.getElementById(`speedControler`);
+const popupButton = document.getElementsByClassName(`popup-colse-button`).value;
+console.log(controlSpeed);
 
 // pop up function
 function showPopup() {
@@ -10,6 +12,12 @@ function showPopup() {
 // pop up close
 function closePopup() {
     popup.style.transform = "scale(0)";
+}
+// relod on click function
+
+function relodWindow() {
+    closePopup();
+    location.reload();
 }
 
 // function myFunction1() {
