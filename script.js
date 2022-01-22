@@ -31,7 +31,7 @@ function myFunction2() {
         setTimeout(() => {
             count2.innerHTML = i;
             if (i === 34) {
-                myFunction2();
+                myFunction3();
             }
         }, i * 1000);
     }
