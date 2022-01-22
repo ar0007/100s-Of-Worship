@@ -95,3 +95,61 @@ span {
     color: rgb(0, 255, 255);
     font-family: HindSiligori !important;
 }
+
+
+/* pop up styling */
+
+#popup {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 90vw;
+    margin-right: 5vw;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.poppup-card {
+    height: 80vh;
+    width: 90vw;
+    padding: 10px;
+    background: rgba(33, 167, 167, 0.945);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-headung {
+    text-align: center;
+}
+
+.popup-head {
+    font-size: 25px;
+    color: #141E30;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.popup-text-content {
+    font-size: 16px;
+    color: #141E30 !important;
+    font-weight: normal;
+}
+
+.popup-colse-button {
+    font-family: HindSiligori !important;
+    border: none;
+    outline: none;
+    background-color: #141E30;
+    color: rgb(0, 255, 255);
+    padding: 10px 18px;
+    font-size: 17px;
+    margin: 10px;
+    font-weight: bold;
+    display: block;
+    border-radius: 4px;
+    margin: 15px auto;
+    cursor: pointer;
+}
